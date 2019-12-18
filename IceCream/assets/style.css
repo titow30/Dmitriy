@@ -1,0 +1,108 @@
+/* Header */
+
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    background-color: #FED3D3;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header__logo {
+    position: absolute;
+    width: 305px;
+    height: 55px;
+    left: calc(50% - 305px/2 - 0.5px);
+    top: calc(50% - 55px/2);
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 15;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation */
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about, .contact, .work {
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 1807px;
+    top: 0px;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity 0.2s linear;
+}
+
+.about:hover, .contact:hover, .work:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    position: absolute;
+    width: 155px;
+    height: 55px;
+    left: 19px;
+    top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.work {
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 1680px;
+    top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cherry {
+    position: absolute;
+    width: 22px;
+    height: 55px;
+    left: 1047px;
+    top: 0px;
+    background: url(152-1520120_freetoedit-cherry-cherries-minimal-minimalism-fruit-free-icon.png);
+}

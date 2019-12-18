@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Наше мороженое</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src ="js/filter.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <a href ="../IceCream/index.html"><div class="header__logo">IceCream</div></a>
+        <nav class="nav">
+            <a href="#">О нас</a>
+            <a href="#">Наше мороженое</a>
+            <a href="#">Как мы работаем</a>
+        </nav>
+        <a href="../IceCream/index.html"><img src="../IceCream/assets/img/корзина.png" alt="корзина"></a>
+
+    </header>
+    <div class="catalog">
+        <div class="color_bg">
+            <ul class="top-filters">
+                <li class="active" data-tab="tastes" id = "tastes">
+                    Вкусы
+                </li>
+                <li data-tab="Formats">
+                    Форматы
+                </li>
+                <li data-tab="Ingridients">
+                    Ингридиенты
+                </li>
+            </ul>
+        </div>
+        <div class="top-filters-body">
+            <div class="content" style="padding: 0;">
+                <div class="top-filters-body-item body-tastes active" data-type="tastes">
+                    <div class="item item-сhocolate filter" data-filter=".chokolate">
+                        <div class="item-body">
+                            <img src ="../IceCream/assets/img/chocolate.png" alt = "chokolad">
+                            <h2>Шоколад</h2>
+                        </div>
+                    </div>
+                    <div class="item item-cockies filter"  data-filter=".cookie">
+                        <div class="item-body">
+                            <img src ="../IceCream/assets/img/cockies.png" alt = "cockies">
+                            <h2>Печенье и вафли</h2>
+                        </div>
+                    </div>
+                    <div class="item item-plombir filter"  data-filter=".plombir">
+                        <div class="item-body">
+                            <img src ="../IceCream/assets/img/plombir.png" alt ="plombir">
+                            <h2>Пломбир</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" style="padding:0;" id = "Container">
+                <div class="catalog-list" id="catalog-list">
+                    <div class="square mix chokolate">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/chokolat magnat.png" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Магнат Шоколад 130гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix plombir">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/plombir-palka.jpg" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Пломбир эскимо в глазури 80гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix cookie">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/cokie.png" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Пломбир с печенью 80гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix cookie">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/cokie.png" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Пломбир с печенью 80гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix plombir">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/plombir-palka.jpg" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Пломбир эскимо в глазури 80гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix plombir">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/plombir-palka.jpg" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Пломбир эскимо в глазури 80гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix chokolate">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/chokolat magnat.png" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Магнат Шоколад 130гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                    <div class="square mix chokolate">
+                        <div class="square-info">
+                            <div class="square-img">
+                                <img src="../IceCream/assets/img/tovar/chokolat magnat.png" alt="">
+                            </div>
+                            <div class="square-text">
+                                <h3>Магнат Шоколад 130гр</h3>
+                            </div>
+                            <div class="buy">Купить</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!--<script src ="js/main.js"></script>-->
+    </div>
+</body>
